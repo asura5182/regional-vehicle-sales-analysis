@@ -42,19 +42,6 @@
 | Central | Madhya Pradesh, Chhattisgarh |
 | Northeast | Assam, Tripura, Meghalaya, Manipur, Nagaland, Sikkim |
 
----
-
-## Known Data Quality Issues (Intentional — For Cleaning Step)
-
-| Issue Type | Approx. Count | Description |
-|---|---|---|
-| Missing `Units_Sold` | ~53 rows (2%) | Simulates reporting gaps |
-| Missing `Avg_Price_INR` | ~40 rows (1.5%) | Simulates incomplete dealer records |
-| Duplicate rows | ~13 rows (0.5%) | Simulates data entry duplication |
-| State name typos | ~8 rows (0.3%) | e.g. "Maharastra", "Telengana", "Karnatak" |
-
----
-
 ## Key Metric — Units Sold vs Real SIAM Anchors (FY2019–FY2024 Cumulative)
 
 | Segment | Real SIAM Total | Synthetic Total | Variance |
